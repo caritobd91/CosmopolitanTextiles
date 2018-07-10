@@ -14,10 +14,35 @@ body{
     align-items: center;
     background-color: white;
     height: 55px;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
 }
 
 .item {
     color: #3d696f;
     padding: 10px;
     font-family: 'Sintony', sans-serif;
+}
+
+.item:hover {
+    color: #132e31;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.deep-nav {
+    color: #3d696f;
+    background: white;
+    font-family: 'Sintony', sans-serif;
+    position: absolute;
+    width: auto;
+    right: 305px;
+    padding: 4px 7px;
+    display: none;
+}
+/* in progress */
+.shop:hover > .deep-nav {
+    display: block;
 }
