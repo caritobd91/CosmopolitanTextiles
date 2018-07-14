@@ -65,6 +65,12 @@ body{
     transform: translateX(-50%);
 }
 
+.horizontal-logo {
+    width: 300px;
+    display: flex;
+    flex-grow: 1;
+}
+
 /* Prducts */
 
 .product-headline {
