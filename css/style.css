@@ -1,23 +1,26 @@
-html {
-    background: url("../img/pillows-opt.jpg") no-repeat;
-    background-size: cover;
+.hero-image {
+    width: 100%;
 }
-
+.product-hero-image {
+    width: 100%;
+    height: 300px;
+}
 body{
     margin: 0;
     height: 100%;
+    overflow: hidden;
 }
-
+/* Navigation */
 .main-nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-color: white;
     height: 55px;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    right: 0; */
+    right: 0;
 }
 
 .item {
@@ -38,11 +41,22 @@ body{
     font-family: 'Sintony', sans-serif;
     position: absolute;
     width: auto;
-    right: 305px;
+    right: 261spx;
     padding: 4px 7px;
     display: none;
 }
 
 .shop:hover > .shop-nav {
     display: block;
+}
+
+/* Logo */
+
+.logo {
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    transform: translateX(-50%);
 }
