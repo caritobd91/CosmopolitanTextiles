@@ -92,5 +92,17 @@ body{
     margin-top: 30px;  
 }
 
+.overlay {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(39, 38, 38, 0.5);  
+    display: none;
+    cursor: pointer;
+    text-align: center;
+}
 
-
+.image-box:hover > .overlay {
+    display: block;
+}
