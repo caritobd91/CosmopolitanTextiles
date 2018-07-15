@@ -130,4 +130,7 @@ body{
     border: none;
     color: white;
     background-color: #51858b;
+    border-top: white solid;
+    border-width: 0.4px;
 }
+
