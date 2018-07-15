@@ -131,6 +131,9 @@ body{
     color: white;
     background-color: #51858b;
     border-top: white solid;
-    border-width: 0.4px;
+    border-width: 0.8px;
+    font-family: 'Sintony', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.3px;
 }
 
