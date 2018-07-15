@@ -69,6 +69,7 @@ body{
     width: 300px;
     display: flex;
     flex-grow: 1;
+    padding-left: 10px;
 }
 
 /* Prducts */
@@ -87,26 +88,26 @@ body{
 
 .product-gallery {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .image-box {
     display: flex;
-    width: 300px;
-    height: 200px;
+    width: 260px;
+    height: 220px;
     background-color: rgb(219, 217, 217);
-    margin-top: 30px;  
+    margin: 50px;  
 }
 
 .overlay {
     position: relative;
     display: flex;
-    width: 300px;
-    height: 200px;
+    width: 250px;
     background-color: rgba(39, 38, 38, 0.5);  
     display: none;
     cursor: pointer;
-    text-align: center;
+    text-align: center; 
+    padding: 29px;
 }
 
 .image-box:hover > .overlay {
